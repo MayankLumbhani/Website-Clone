@@ -1,107 +1,288 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    
+    <title>Crypto Market Overview</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="navbar">
-        <span class="box1">
-        <span>Coins : </span>
-        <a href="">19,392</a>
-        </span>  
-        <span class="box1">
-        <span>Exchanges : </span>
-        <a href="">1,140</a>
-        </span>
-          <span class="box1">
-        <span>Market Cap : </span>
-        <a href="">$3.787T</a>
-        </span>
-          <span class="box1">
-        <span>Coins : </span>
-        <a href="">19,392</a>
-        </span>
-        <div class="img1">
-        <img src="https://www.kindpng.com/picc/m/771-7714144_red-arrow-down-red-arrow-down-icon-hd.png" alt="" height="8vh" >
+  
+    <div class="top-bar">
+        <div class="stats">
+            <span>Coins: <strong>19,394</strong></span>
+        <span>Exchanges: <strong>1,410</strong></span>
+            <span>Market Cap: <strong>$3.758T</strong> <span class="change down">2.0%</span></span>
+            <span>24h Vol: <strong>$179.572B</strong></span>
+            <span>Dominance: <strong>BTC 58.1%</strong> <strong>ETH 12.3%</strong></span>
+            <span>Gas: <strong>0.113 GWEI</strong></span>
         </div>
-        <span class="redtxt">2.7%</span>
-        <span class="box1">
-        <span>24h Vol : </span>
-        <a href="">$191.86B</a>
-        </span>
-        <span class="box1">
-        <span>Dominance : </span>
-        <a href="">BTC 57.6% &nbsp; ETH 12.3%</a>
-        </span>
-        <span>
-        <img src="https://coincentral.com/wp-content/uploads/2018/01/ETHEREUM-ICON_Black_small-150x150.png" alt="" height="30vh">
-        </span>
-         <span class="specbox1">
-        <span> Gas : </span>
-        <a href="">0.644 GWEI</a>
-        </span>
-
-        <span class="iconbox1">
-            <div class="img2">
-            <img src="https://png.pngtree.com/element_our/png/20181227/settings-glyph-black-icon-png_292947.jpg" alt="" height="25vh">
-            </div>
-        </span>
-        <span class="iconbox">
-            <div class="img2">
-            <img src="https://media.istockphoto.com/id/1377877660/vector/realistic-mobile-phone-mockup-cellphone-app-template-isolated-stock-vector.jpg?s=612x612&w=0&k=20&c=Xw2padf6w33h9eQFFz83PL0reGEMdu1FtFsuI5G5Nf0=" alt="" height="25vh">
-            </div>
-        </span>
-        <span class="iconbox2">
-            &nbsp;Login &nbsp;
-        </span>
-         <span class="iconbox3">
-            &nbsp;Sign up &nbsp;
-        </span>
-
-    </div>  <hr>
-
-    <div class="secnav">
-        <span  class="logo">
-        <img src="https://static.coingecko.com/s/coingecko-logo-5683263fd3ea8a4f152dd5f7299acfc5f84ee73955428acff22913b8e59e6c54.svg" alt="" height="30vh">
-        </span>
-        <span class="navbox"><a href="">Cryptocurrencies</a></span>
-         </span>
-        <span class="navbox"><a href="">Exchanges</a></span>
-         </span>
-        <span class="navbox"><a href="">NFT</a></span>
-         </span>
-        <span class="navbox"><a href="">Learn</a></span>
-         </span>
-        <span class="navbox"><a href="">Products</a></span>
-         </span>
-        <span class="navbox"><a href="">API</a></span>
-
-    </div>  <hr>
-
-    <h2 class="heading">Cryptocurrency Prices by Market Cap</h2>
-    <p class="para">The global cryptocurrency market cap today is $3.73 Trillion, a 3.1% change in the last 24 hours.....</p>
-
-    <div class="parentbox">
-
-    <div class="mainbox">
-        <div class="halfbox">
-            <span class="value">$3,744,124,711,289 br p</span>
-            <img src="https://www.coingecko.com/total_market_cap.svg" alt="">
-            <p>Market Cap 2.0%</p>
+        <div class="auth-buttons">
+            <button class="btn-login">Login</button>
+            <button class="btn-signup">Sign up</button>
         </div>
-        
-        <div class="halfbox"></div>
     </div>
 
+   
+    <header class="header">
+        <div class="logo">
+            <img src="https://static.coingecko.com/s/coingecko-logo-5683263fd3ea8a4f152dd5f7299acfc5f84ee73955428acff22913b8e59e6c54.svg" height="35vh" alt="">
+        </div>
+        <nav class="nav">
+        <a href="#" class="active">Cryptocurrencies</a>
+            <a href="#">Exchanges</a>
+          <a href="#">NFT</a>
+            <a href="#">Learn</a>
+            <a href="#">Products</a>
+            <a href="#">API</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </header>
+
+    
+    <main class="main-content">
+     <section class="market-summary">
+            <h1>Cryptocurrency Prices by Market Cap</h1>
+            <p>The global cryptocurrency market cap today is <strong>$3.76 Trillion</strong>, a <span class="change down">2.0%</span> change in the last 24 hours. <a href="#">Read more</a></p>
+        </section>
+
+        <div class="grid-container">
+           
+            <div class="widget market-cap">
+                <div class="widget-value">$3,757,649,392,010</div>
+                <div class="widget-label">Market Cap <span class="change down">2.0%</span></div>
+                <div class="graph">
+                    <img src="https://www.coingecko.com/total_market_cap.svg" alt="Market Cap Graph">
+                </div>
+            </div>
+
+           
+            <div class="widget volume">
+                <div class="widget-value">$179,572,339,819</div>
+                <div class="widget-label">24h Trading Volume</div>
+                <div class="graph">
+                    <img src="https://www.coingecko.com/total_volume.svg" alt="Volume Graph">
+                </div>
+            </div>
+
+       
+            <div class="widget trending">
+                <div class="widget-header">
+                    <h3>Trending</h3>
+                    <a href="#" class="view-more">View more ></a>
+                </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/486/standard/circle-zcash-color.png?1696501740" alt="Zcash">
+                    <span>Zcash</span>
+                    <span class="price up">$385.23</span>
+                    <span class="percent up">77%</span>
+                </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/69040/standard/_ASTER.png?1757326782" alt="Astar">
+                    <span>Aster</span>
+                    <span class="price up">$0.9425</span>
+                    <span class="percent up">77%</span>
+                </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/69447/standard/coai.png?1758625501" alt="ChainOpera">
+                    <span>ChainOpera AI</span>
+                    <span class="price up">$1.84</span>
+                    <span class="percent up">31.2%</span>
+                </div>
+            </div>
+
+            <div class="widget top-gainers">
+                <div class="widget-header">
+                    <h3>Top Gainers</h3>
+                    <a href="#" class="view-more">View more ></a>
+            </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/51589/standard/pippin_logo.png?1731570163" alt="pippip">
+                    <span>pippip</span>
+                    <span class="price">$0.03664</span>
+                    <span class="percent up">99.0%</span>
+             </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/20582/standard/aurora.jpeg?1696519989" alt="Aurora">
+                    <span>Aurora</span>
+                    <span class="price">$0.1089</span>
+                    <span class="percent up">66.4%</span>
+                </div>
+                <div class="trending-item">
+                    <img src="https://assets.coingecko.com/coins/images/55484/standard/ICNT_token_%281%29_%281%29.png?1751614146">
+                    <span>Impossible Cloud Net...</span>
+                    <span class="price">$0.2936</span>
+                    <span class="percent up">55.5%</span>
+                </div>
+            </div>
+        </div>
+
+       
+<section class="crypto-table-section">
+    <div class="table-filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Highlights</button>
+        <button class="filter-btn">Categories</button>
+        <button class="filter-btn">Commodity-backed Stablecoin</button>
+        <button class="filter-btn">Privacy</button>
+        <button class="filter-btn">x402 Ecosystem</button>
+        <button class="customize-btn">Customize</button>
     </div>
-    
+
+    <div class="table-container">
+        <table class="crypto-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Coin</th>
+                    <th>Price</th>
+                    <th>1h</th>
+                    <th>24h</th>
+                    <th>7d</th>
+                    <th>24h Volume</th>
+                    <th>Market Cap</th>
+                    <th>Last 7 Days</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+                <tr>
+                    <td>1</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/1/small/bitcoin.png" alt="BTC">
+                        Bitcoin <span class="symbol">BTC</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $109,515
+                    </td>
+                    <td class="change up">0.0%</td>
+                    <td class="change down">1.6%</td>
+                    <td class="change down">1.7%</td>
+                    <td>$67,437,448,830</td>
+                    <td>$2,183,955,518,014</td>
+                    <td class="graph-cell">
+                        <img src="https://www.coingecko.com/coins/1/sparkline.svg" alt="BTC 7d">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>2</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/279/small/ethereum.png" alt="ETH">
+                        Ethereum <span class="symbol">ETH</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $3,830.50
+                    </td>
+                    <td class="change up">0.0%</td>
+                    <td class="change down">2.6%</td>
+                    <td class="change down">2.9%</td>
+                    <td>$35,403,739,623</td>
+                    <td>$462,331,225,912</td>
+                    <td class="graph-cell">
+                        <img src="https://www.coingecko.com/coins/279/sparkline.svg" alt="ETH 7d">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>3</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/325/small/Tether.png" alt="USDT">
+                        Tether <span class="symbol">USDT</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $0.9999
+                    </td>
+                    <td class="change down">0.0%</td>
+                    <td class="change down">0.0%</td>
+                    <td class="change down">0.1%</td>
+                    <td>$116,850,255,734</td>
+                    <td>$183,383,732,669</td>
+                    <td class="graph-cell">
+                        <img src="https://www.coingecko.com/coins/325/sparkline.svg" alt="USDT 7d">
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td>4</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png?1696501970" alt="BNB">
+                        BNB <span class="symbol">BNB</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $1,098.76
+                    </td>
+                    <td class="change up">0.4%</td>
+                    <td class="change down">1.6%</td>
+                    <td class="change down">2.4%</td>
+                    <td>$2,510,167,362</td>
+                    <td>$151,341,581,602</td>
+                    <td class="graph-cell">
+                        <img src="https://www.coingecko.com/coins/825/sparkline.svg" alt="BNB 7d">
+                    </td>
+                </tr>
+
+               
+                <tr>
+                    <td>5</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/44/small/xrp.png" alt="XRP">
+                        XRP <span class="symbol">XRP</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $2.48
+                    </td>
+                    <td class="change down">0.1%</td>
+                    <td class="change down">4.1%</td>
+                    <td class="change up">1.4%</td>
+                    <td>$5,036,974,359</td>
+                    <td>$148,699,931,625</td>
+                    <td class="graph-cell">
+                        <img src="YOUR_XRP_7D_GRAPH_LINK" alt="XRP 7d">
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td>6</td>
+                    <td class="coin-cell">
+                        <img src="https://assets.coingecko.com/coins/images/4128/small/solana.png" alt="SOL">
+                        Solana <span class="symbol">SOL</span>
+                    </td>
+                    <td class="price-cell">
+                        <button class="buy-btn">Buy</button>
+                        $185.42
+                    </td>
+                    <td class="change up">0.0%</td>
+                    <td class="change down">5.2%</td>
+                    <td class="change down">3.4%</td>
+                    <td>$7,802,920,229</td>
+                    <td>$101,957,116,603</td>
+                    <td class="graph-cell">
+                        <img src="YOUR_SOL_7D_GRAPH_LINK" alt="SOL 7d">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+    </main>
 
 
-    
+
 </body>
 </html>
