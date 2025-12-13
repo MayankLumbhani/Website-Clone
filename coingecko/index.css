@@ -1,0 +1,150 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+     font-size: 1.6vh;
+}
+
+.box1{
+    /* border: 1px solid blue; */
+    margin-left: 3vh;
+    color: rgb(76, 78, 80);
+    
+}
+
+.navbar a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: green;
+}
+
+.img1{
+    margin-left: 1vh;
+}
+
+.redtxt{
+    color: red;
+}
+
+.specbox1{
+    /* border: 1px solid blue; */
+    color: rgb(76, 78, 80);
+}
+
+.iconbox1{
+    border: .4vh solid black;
+    margin-left: 5vh;
+    border-radius: 1vh;
+}
+
+.img2{
+
+}
+
+.iconbox{
+    border: .4vh solid black;
+    margin-left: 2vh;
+    border-radius: 1vh;
+}
+
+.iconbox2{
+    border: .4vh solid black;
+    margin-left: 2vh;
+    border-radius: 1vh;
+    height: 3vh;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.iconbox3{
+    border: .4vh solid black;
+    margin-left: 2vh;
+    border-radius: 1vh;
+    height: 3vh;
+    color: white;
+    background-color: green;
+    justify-content: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.secnav{
+    /* border: .5vh solid black;  */
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 3vh;
+}
+
+.navbox{
+    margin-left: 4vh;
+    /* border: 1px solid black; */
+    font-size: 2vh;
+    font-weight: 900;
+
+}
+
+.navbox a{
+    color: rgb(36, 34, 34);
+    text-decoration: none;
+}
+
+.navbox a:hover{
+    color: green;
+}
+
+.heading{
+    margin-left: 3vh;
+}
+
+.para{
+    color: rgb(102, 107, 111);
+    margin-left: 3vh;
+    font-size: 2vh;
+
+}
+
+.parentbox{
+    margin-left: 3vh;
+}
+
+.mainbox{
+    border: 1px solid black;
+    height: 30vh;
+    width: 98%;
+}
+
+.halfbox{
+    border: 1px solid green;
+    height: 14vh;
+    margin-top: 1vh;
+    width: 32%;
+    border-radius: 2vh;
+}
+
+.value{
+    border: 1px solid black;
+    
+    
+}
+
+.halfbox p{
+    color: red;
+    
+
+}
+
