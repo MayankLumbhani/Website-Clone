@@ -1,0 +1,399 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #F1F2F4;
+}
+
+.nav1{
+    /* border: 1px solid black; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.flipkart-logo img{
+    /* border: 1px solid black; */
+    height: 6vh;
+}
+
+.searchbar{
+    /* border: 1px solid black; */
+    height: 5vh;
+    width: 90vh;
+    margin-left: 4vh;
+    border-radius: 1vh;
+    background-color: #F0F5FF;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon img{
+    height: 3vh;
+    /* border: 1px solid black; */
+    margin-left: 2vh;
+   
+}
+
+.search-text{
+    color: #666666;
+    margin-left: 2vh;
+    font-size: 2.2vh;
+}
+
+.login-box{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-left: 5vh;
+}
+
+.login-box a{
+    color: black;
+    text-decoration: none;
+}
+
+.profile-icon{
+    height: 4vh;
+    
+}
+
+.login-txt{
+    font-size: 2.2vh;
+    margin-left: 1vh;
+}
+
+.down-arrow-icon{
+    height: 2vh;
+    margin-left: 1vh;
+    margin-top: .7vh;
+}
+
+.more-options img{
+    margin-left: 3vh;
+    height: 3.5vh;
+}
+
+.nav2{
+    background-color: #FFFFFF;
+    height: 15vh;
+    margin-top: 1vh;
+    width: 97%;
+    margin-left: 1.5%;
+    display: flex;
+    align-items: center;
+}
+
+.sub-nav2{
+    /* border: 1px solid black; */
+    height: 12vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2-box{
+    /* border: 1px solid blue; */
+    height: 12vh;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-txt a{
+    color: black;
+    text-decoration: none;
+    font-size: 2.25vh
+}
+
+.box-img a img{
+    height: 8vh;
+}
+
+.banner{
+      width: 97%;
+      margin-left: 1.5%;
+      height: 32vh;
+      /* border: 2px solid black; */
+      margin-top: 2vh;
+      background-color: #FFFFFF;
+}
+
+.banner a img{
+    width: 100%;
+}
+
+.row-1{
+    /* border: 1px solid black; */
+    margin-left: 1.5%;
+    margin-top: 2vh;
+    height: 47vh;
+    width: 97%;
+    /* margin-bottom: ; */
+    background-color: #FFFFFF; 
+
+}
+
+.sub-row-1{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-top: 2vh;
+    
+    
+}
+
+.row-1 h1{
+    font-size: 3.5vh;
+    margin-left: 2vh;
+    padding-top: 2.5vh;
+}
+
+.card{
+    height: 29vh;
+    width: 22vh;
+    /* border: 1px solid black; */
+    margin-left: 8vh;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-img, .card a{
+    height: 90%;
+}
+
+.card-title a{
+    font-size: 2.1vh;
+    color: #1F1F1F;
+    margin-top: 2vh;
+    text-decoration: none;
+}
+
+.card-price a{
+
+    font-size: 2.1vh;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card img:hover{
+    scale: 1.03;
+}
+
+.poster-row{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 1.5%; 
+     margin-right: 1.5%;
+     margin-top: 2vh;
+}
+
+.poster-row img{
+    height: 31.5vh;
+}
+
+.poster-row img:hover{
+    cursor: pointer;
+}
+
+.poster-row-2{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 1.5%; 
+     margin-right: 1.5%;
+     margin-top: 1.5vh;
+}
+
+.poster-row-2 img{
+    height: 31.5vh;
+}
+
+.poster-row-2 img:hover{
+    cursor: pointer;
+}
+
+.main-block-row{
+    display: flex;
+}
+
+.block{
+    width: 31.33%;
+    padding-top: 2.5vh;
+    background-color: white;
+    height: 77.6vh;
+    margin-left: 1.5%;
+    margin-top: 2vh;
+}
+
+.block-nav{
+    display: flex;
+}
+
+.block-heading{
+  
+    font-size: 3vh;
+    height: 3vh;
+    width: 50vh;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    margin-left: 2vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+}
+
+.blue-arrow{
+    font-size: 3.5vh;
+    height: 3.5vh;
+    width: 3.5vh;
+    color: white;
+    margin-left: 1vh;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: blue;
+     display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.block-row{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-around;
+    margin-top: 3.5vh;
+}
+
+.block-card{
+    height: 33.5vh;
+    width: 45%;
+    border: .1vh solid #cbcbcb;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-card-image{
+    /* border: 2px solid; */
+    height: 85%;
+
+}
+
+.img-link{
+    /* border: 1px solid; */
+    height: 26vh;
+}
+
+.card-img-1{
+    height: 95%;
+    margin-top: 3vh;
+    /* border: 1px solid; */
+}
+
+.card-title-1{
+
+    /* margin-top:8vh; */
+    color: black;
+    text-decoration: none;
+    font-size: 2.5vh;
+     height: 3vh;
+     width: 24vh;
+}
+
+.card-title-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.card-price-1{
+ 
+    color: green;
+    text-decoration: none;
+    font-size: 2.5vh;
+       height: 3vh;
+     width: 24vh;
+     margin-top: .5vh;
+}
+
+.card-price-1 a{
+
+    color: green;
+    text-decoration: none;
+}
+
+.block-row-2{
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-around;
+    margin-top: 1.5vh;
+}
+
+.block3{
+    width: 31.33%;
+    background-color: white;
+    height: 80vh;
+    margin-left: 1.5%;
+    margin-top: 2vh;
+ 
+}
+
+.block3 img{
+    width: 100%;
+    height: 80vh;
+
+}
+
+.poster1 img{
+    width: 97%;
+    margin-left: 1.5%;
+    margin-top: 2vh;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.card-img-extra{
+    height: 45%;
+    margin-top: 5vh;
+}
+
+.card-img-extra-1{
+    height: 85%;
+    width: 100%;
+
+}
+
+.top-story{
+    margin-top: 3vh;
+    margin-left: 2.5vh;
+}
+
+.main-top-str{
+    width: 95%;
+}
+
+.top-stories{
+    font-family: sans-serif;
+    width: 90%;
+    /* border: 1px solid black; */
+    color: #565656;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5%;
+    margin-top: 1%;
+}

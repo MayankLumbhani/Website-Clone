@@ -1,0 +1,460 @@
+*{
+    font-family: sans-serif;
+}
+
+.nav{
+    margin-top: 0%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background-color: #F8CB19;
+    height: 6vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-left: 15vh;
+}
+
+.about-us{
+    font-size: 3vh;
+    margin-left: 65vh;
+    color: black;
+    text-decoration: none;
+}
+
+.rapido-ads{
+    font-size: 3vh;
+    margin-left: 5vh;
+}
+
+.main-bg{  
+    height: 65vh;
+    width: 100%;
+    background-image: url('https://rapido-app-assets.storage.googleapis.com/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 6.5vh;
+}
+
+.enter-loc{
+    height: 8vh;
+    width: 79.5vh;
+    border: .1vh solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1vh;
+    margin-top: 5vh;
+}
+
+.loc-img{
+    height: 5vh;
+    width: 4.6vh;
+    margin-left: 2vh;
+}
+
+.loc-txt{
+    font-size: 2.7vh;
+    color: #757575;
+    margin-left: 3vh;
+}
+
+.enter-loc-2{
+    height: 8vh;
+    width: 79.5vh;
+    border: .1vh solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1vh;
+    margin-top: 2vh;
+}
+
+.book-ride{
+    height: 9vh;
+    width: 79.5vh;
+    background-color: #F8CB19;
+    border-radius: 1vh;
+    margin-top: 6vh;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.heading-2{
+    margin: 0%;
+    font-size: 6.5vh;
+    margin-top: 8vh;
+    margin-left: 15vh;
+    /* border: 1px solid black; */
+}
+
+.card-row{
+    /* border: 1px solid;  */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 8vh;
+    margin-left: 15vh;
+    /* border: 1px solid; */
+}
+
+.card-img{
+    height: 20vh;
+}
+
+.card-txt{
+    margin-top: 1vh;
+    margin-left: 1vh;
+    font-weight: 550;
+    font-size: 3vh;
+}
+
+.main-poster{
+    background-color: #F6F7F9;
+    width: 100%;
+    height: 160vh;
+}
+
+.poster{
+    height: 70vh;
+    background-color: #F6F7F9;
+    margin-top: 10vh;
+    display: flex;
+}
+
+.heading-3{
+    margin: 0%;
+    font-size: 6.5vh;
+    margin-top: 12vh;
+    margin-left: 15vh; 
+    /* border: 1px solid black; */
+    width: 65vh;
+}
+
+.mini-head{
+    margin-top: 5vh;
+    margin-left: 15vh; 
+    width: 65vh;
+    font-size: 4.25vh;
+    font-weight: 50;
+}
+
+.book-ride-2{
+    background-color: black;
+    color: white;
+    font-size: 4.5vh;
+    margin-top: 5vh;
+    margin-left: 15vh;
+    width: 31vh;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vh;
+}
+
+.poster-img{
+    height: 62.5vh;
+    margin-left: 17.5vh;
+    margin-top: 5vh;
+}
+
+.poster-img-2{
+    height: 62.5vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+.heading-4{
+    margin: 0%;
+    font-size: 6.5vh;
+    margin-top: 12vh;
+    margin-left: 17.5vh; 
+    /* border: 1px solid black; */
+    width: 65vh;
+}
+
+.mini-head-2{
+    margin-top: 5vh;
+    margin-left: 17.5vh; 
+    width: 65vh;
+    font-size: 4.25vh;
+    font-weight: 50;
+}
+
+.book-ride-3{
+    background-color: black;
+    color: white;
+    font-size: 4.5vh;
+    margin-top: 5vh;
+    margin-left: 17.5vh;
+    width: 31vh;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vh;
+}
+
+.poster-2{
+    height: 62.5vh;
+    margin-top: 2vh;
+    display: flex;
+}
+
+.poster-img-3{
+    height: 52vh;
+    margin-left: 17.5vh;
+    margin-top: 5vh;
+}
+
+.know-more{
+    color: #1E4B82;
+
+    margin-top: 5vh;
+    margin-left: 15vh; 
+    width: 65vh;
+    font-size: 4.25vh;
+    font-weight: 550;
+}
+
+.black-bg{
+    height: 45vh;
+    width: 100%;
+    background-color: black;
+}
+
+.download-now{
+    color: white;
+    font-size: 6.5vh;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding-top: 5vh;
+}
+
+.main-logo-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.logo-card{
+    /* border: 1px solid green; */
+    height: 20vh;
+    width: 23vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5vh;
+}
+
+.logo-card-1{
+    /* border: 1px solid green; */
+    height: 20vh;
+    width: 23vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vh;
+}
+
+
+.logo-1{
+    height: 12vh;
+}
+
+.card-txt-1{
+    color: white;
+    font-size: 2.75vh;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+.line{
+    width: 100%;
+    border: .1vh solid #757575;
+    margin-top: 5vh;
+}
+
+.icon-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid ; */
+    margin-top: 3vh;
+}
+
+.icon{
+    height: 15vh;
+    width: 20vh;
+    /* border: 1px solid green; */
+}
+
+.line-1{
+    width: 100%;
+    border: .1vh solid #757575;
+    margin-top: 2vh;
+}
+
+.logo-2{
+    background-color: #F8CB19;
+    height: 6vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-left: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+.main-list{
+    display: flex;
+}
+
+.Home{
+    list-style-type: none;
+    margin-left: 12vh;
+    margin-top: 1vh;
+    font-size: 2.5vh;
+}
+
+/* About Us */
+
+.nav-au{
+    margin-top: 0%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo-au{
+    background-color: #F8CB19;
+    height: 6vh;
+    width: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-left: 15vh;
+}
+
+.about-us-au{
+    font-size: 2vh;
+    margin-left: 35vh;
+        color: black;
+    text-decoration: none;
+}
+
+.rapido-ads-au{
+    font-size: 2vh;
+    margin-left: 5vh;
+
+}
+
+.download-app-au{
+    background-color: black;
+    color: white;
+    font-size: 2.25vh;
+    margin-left: 5vh;
+    width: 20vh;
+    height: 5.5vh;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:  3vh 3vh 0vh  ;
+}
+
+.container{
+    display: flex;
+}
+
+.left-part{
+    /* border: 1px solid black; */
+    
+}
+
+.light-heading{
+    margin: 0%;
+    font-size: 6.5vh;
+    font-weight: inherit;
+    /* border: 1px solid green; */
+    margin-top: 17vh;
+    margin-left: 17vh;
+}
+
+.dark-heading{
+    margin: 0%;
+    font-size: 6.5vh;
+    margin-left: 17vh;
+}
+
+.mini-dark-heading{
+    margin: 0%;
+    margin-top: 5vh;
+    font-size: 3vh;
+    margin-left: 17vh;
+    font-weight: bold;
+    color: #4B4B4B;
+}
+
+.mini-light-heading{
+    margin: 0%;
+    font-size: 3vh;
+    margin-left: 17vh;
+    color: #4B4B4B;
+    /* border: 1px solid black; */
+    width: 75vh;
+}
+
+.right-part{
+    margin-top: 2vh;
+    height: 70vh;
+    border: 1px solid ;
+}
+
+.mini-dark-heading-2{
+    margin: 0%;
+    margin-top: 17vh;
+    font-size: 4.15vh;
+    margin-left: 17vh;
+    font-weight: bold;
+    color: black;
+}
+
+.mini-light-heading-2{
+    margin: 0%;
+    margin-top: 3vh;
+    font-size: 3vh;
+    margin-left: 17vh;
+    color: #4B4B4B;
+    /* border: 1px solid black; */
+    width: 75vh;
+}
