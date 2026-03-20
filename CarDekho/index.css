@@ -124,6 +124,7 @@
 
 .container{
      background-color: #FAFAFA;
+     padding-top: 16.1vh;
 }
 
 .bg-thumbnail{
@@ -148,7 +149,7 @@
 .fyc-heading{
     margin-left: 2vh;
     margin-top: 2vh;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 
 .main-car-box{
@@ -225,7 +226,6 @@
     color: white;
     border-radius: 1vh;
     background-color: #F75D34;
-    
 
 }
 
